@@ -1,0 +1,41 @@
+# Abhängigkeiten & Build
+node_modules/
+dist/
+*.local
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Umgebungsvariablen / Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Claude Code lokal
+.claude/
+CLAUDE.md
+
+# Private Dokumente (nur lokal)
+DEMO_SCRIPT.md
+PRIVATE_SETUP.md
+README.md
+ARCHITECTURE.md
+CRISPE*.md
+NOTES*.md
+notizen*.md
